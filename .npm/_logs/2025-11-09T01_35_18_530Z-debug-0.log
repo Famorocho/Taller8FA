@@ -1,0 +1,199 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v20.9.0/bin/node /home/ubuntu/.nvm/versions/node/v20.9.0/bin/npm
+1 info using npm@10.1.0
+2 info using node@v20.9.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:/home/ubuntu/.nvm/versions/node/v20.9.0/lib/node_modules/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 19ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/home/ubuntu/.nvm/versions/node/v20.9.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 36ms
+16 timing npm:load:configload Completed in 36ms
+17 timing config:load:flatten Completed in 5ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm i @railway/cli
+21 verbose argv "i" "--global" "@railway/cli"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2025-11-09T01_35_18_530Z-
+25 verbose logfile /home/ubuntu/.npm/_logs/2025-11-09T01_35_18_530Z-debug-0.log
+26 timing npm:load:logFile Completed in 16ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 91ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 35ms
+34 timing idealTree:userRequests Completed in 4ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @railway/cli@*
+37 http fetch GET 200 https://registry.npmjs.org/@railway%2fcli 262ms (cache miss)
+38 silly placeDep ROOT @railway/cli@4.11.0 OK for:  want: *
+39 silly fetch manifest @napi-rs/triples@^1.1.0
+40 silly fetch manifest node-fetch@^3.1.0
+41 silly fetch manifest tar@^6.1.11
+42 http fetch GET 200 https://registry.npmjs.org/node-fetch 74ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/tar 79ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2ftriples 535ms (cache miss)
+45 timing idealTree:#root Completed in 817ms
+46 silly placeDep node_modules/@railway/cli @napi-rs/triples@1.2.0 OK for: @railway/cli@4.11.0 want: ^1.1.0
+47 silly placeDep node_modules/@railway/cli node-fetch@3.3.2 OK for: @railway/cli@4.11.0 want: ^3.1.0
+48 silly fetch manifest data-uri-to-buffer@^4.0.0
+49 silly fetch manifest fetch-blob@^3.1.4
+50 silly fetch manifest formdata-polyfill@^4.0.10
+51 silly placeDep node_modules/@railway/cli tar@6.2.1 OK for: @railway/cli@4.11.0 want: ^6.1.11
+52 silly fetch manifest chownr@^2.0.0
+53 silly fetch manifest mkdirp@^1.0.3
+54 silly fetch manifest yallist@^4.0.0
+55 silly fetch manifest minipass@^5.0.0
+56 silly fetch manifest minizlib@^2.1.1
+57 silly fetch manifest fs-minipass@^2.0.0
+58 http fetch GET 200 https://registry.npmjs.org/minizlib 112ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/fetch-blob 118ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer 121ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/chownr 123ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/yallist 126ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/fs-minipass 129ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/mkdirp 132ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill 142ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/minipass 146ms (cache miss)
+67 timing idealTree:node_modules/@railway/cli Completed in 160ms
+68 timing idealTree:node_modules/@railway/cli/node_modules/@napi-rs/triples Completed in 0ms
+69 silly placeDep node_modules/@railway/cli data-uri-to-buffer@4.0.1 OK for: node-fetch@3.3.2 want: ^4.0.0
+70 silly placeDep node_modules/@railway/cli fetch-blob@3.2.0 OK for: node-fetch@3.3.2 want: ^3.1.4
+71 silly fetch manifest node-domexception@^1.0.0
+72 silly fetch manifest web-streams-polyfill@^3.0.3
+73 silly placeDep node_modules/@railway/cli formdata-polyfill@4.0.10 OK for: node-fetch@3.3.2 want: ^4.0.10
+74 http fetch GET 200 https://registry.npmjs.org/node-domexception 42ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill 44ms (cache miss)
+76 timing idealTree:node_modules/@railway/cli/node_modules/node-fetch Completed in 55ms
+77 timing idealTree:node_modules/@railway/cli/node_modules/data-uri-to-buffer Completed in 0ms
+78 silly placeDep node_modules/@railway/cli node-domexception@1.0.0 OK for: fetch-blob@3.2.0 want: ^1.0.0
+79 silly placeDep node_modules/@railway/cli web-streams-polyfill@3.3.3 OK for: fetch-blob@3.2.0 want: ^3.0.3
+80 timing idealTree:node_modules/@railway/cli/node_modules/fetch-blob Completed in 5ms
+81 timing idealTree:node_modules/@railway/cli/node_modules/formdata-polyfill Completed in 0ms
+82 timing idealTree:node_modules/@railway/cli/node_modules/node-domexception Completed in 0ms
+83 silly placeDep node_modules/@railway/cli chownr@2.0.0 OK for: tar@6.2.1 want: ^2.0.0
+84 silly placeDep node_modules/@railway/cli fs-minipass@2.1.0 OK for: tar@6.2.1 want: ^2.0.0
+85 silly fetch manifest minipass@^3.0.0
+86 silly placeDep node_modules/@railway/cli minipass@5.0.0 OK for: tar@6.2.1 want: ^5.0.0
+87 silly placeDep node_modules/@railway/cli minizlib@2.1.2 OK for: tar@6.2.1 want: ^2.1.1
+88 silly placeDep node_modules/@railway/cli mkdirp@1.0.4 OK for: tar@6.2.1 want: ^1.0.3
+89 silly placeDep node_modules/@railway/cli yallist@4.0.0 OK for: tar@6.2.1 want: ^4.0.0
+90 timing idealTree:node_modules/@railway/cli/node_modules/tar Completed in 31ms
+91 timing idealTree:node_modules/@railway/cli/node_modules/chownr Completed in 0ms
+92 silly placeDep node_modules/@railway/cli/node_modules/fs-minipass minipass@3.3.6 OK for: fs-minipass@2.1.0 want: ^3.0.0
+93 timing idealTree:node_modules/@railway/cli/node_modules/fs-minipass Completed in 5ms
+94 timing idealTree:node_modules/@railway/cli/node_modules/minipass Completed in 0ms
+95 silly placeDep node_modules/@railway/cli/node_modules/minizlib minipass@3.3.6 OK for: minizlib@2.1.2 want: ^3.0.0
+96 timing idealTree:node_modules/@railway/cli/node_modules/minizlib Completed in 5ms
+97 timing idealTree:node_modules/@railway/cli/node_modules/mkdirp Completed in 0ms
+98 timing idealTree:node_modules/@railway/cli/node_modules/web-streams-polyfill Completed in 0ms
+99 timing idealTree:node_modules/@railway/cli/node_modules/yallist Completed in 0ms
+100 timing idealTree:node_modules/@railway/cli/node_modules/fs-minipass/node_modules/minipass Completed in 0ms
+101 timing idealTree:node_modules/@railway/cli/node_modules/minizlib/node_modules/minipass Completed in 0ms
+102 timing idealTree:buildDeps Completed in 1084ms
+103 timing idealTree:fixDepFlags Completed in 1ms
+104 timing idealTree Completed in 1127ms
+105 timing reify:loadTrees Completed in 1135ms
+106 timing reify:diffTrees Completed in 2ms
+107 silly reify moves {}
+108 timing reify:retireShallow Completed in 1ms
+109 timing reify:createSparse Completed in 55ms
+110 timing reify:loadBundles Completed in 0ms
+111 silly tarball no local data for @railway/cli@https://registry.npmjs.org/@railway/cli/-/cli-4.11.0.tgz. Extracting by manifest.
+112 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz. Extracting by manifest.
+113 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz. Extracting by manifest.
+114 silly tarball no local data for minizlib@https://registry.npmjs.org/minizlib/-/minizlib-2.1.2.tgz. Extracting by manifest.
+115 silly tarball no local data for minipass@https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz. Extracting by manifest.
+116 silly tarball no local data for minipass@https://registry.npmjs.org/minipass/-/minipass-5.0.0.tgz. Extracting by manifest.
+117 silly tarball no local data for fs-minipass@https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz. Extracting by manifest.
+118 silly tarball no local data for minipass@https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz. Extracting by manifest.
+119 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz. Extracting by manifest.
+120 silly tarball no local data for web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz. Extracting by manifest.
+121 silly tarball no local data for node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz. Extracting by manifest.
+122 silly tarball no local data for formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz. Extracting by manifest.
+123 silly tarball no local data for fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz. Extracting by manifest.
+124 silly tarball no local data for data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz. Extracting by manifest.
+125 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz. Extracting by manifest.
+126 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz. Extracting by manifest.
+127 silly tarball no local data for @napi-rs/triples@https://registry.npmjs.org/@napi-rs/triples/-/triples-1.2.0.tgz. Extracting by manifest.
+128 http fetch GET 200 https://registry.npmjs.org/@railway/cli/-/cli-4.11.0.tgz 352ms (cache miss)
+129 timing reifyNode:node_modules/@railway/cli Completed in 380ms
+130 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz 344ms (cache miss)
+131 timing reifyNode:node_modules/@railway/cli/node_modules/chownr Completed in 380ms
+132 http fetch GET 200 https://registry.npmjs.org/minizlib/-/minizlib-2.1.2.tgz 350ms (cache miss)
+133 timing reifyNode:node_modules/@railway/cli/node_modules/minizlib Completed in 381ms
+134 http fetch GET 200 https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz 348ms (cache miss)
+135 timing reifyNode:node_modules/@railway/cli/node_modules/fs-minipass Completed in 381ms
+136 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 360ms (cache miss)
+137 timing reifyNode:node_modules/@railway/cli/node_modules/yallist Completed in 386ms
+138 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 341ms (cache miss)
+139 timing reifyNode:node_modules/@railway/cli/node_modules/data-uri-to-buffer Completed in 396ms
+140 http fetch GET 200 https://registry.npmjs.org/minipass/-/minipass-5.0.0.tgz 364ms (cache miss)
+141 timing reifyNode:node_modules/@railway/cli/node_modules/minipass Completed in 396ms
+142 http fetch GET 200 https://registry.npmjs.org/@napi-rs/triples/-/triples-1.2.0.tgz 336ms (cache miss)
+143 timing reifyNode:node_modules/@railway/cli/node_modules/@napi-rs/triples Completed in 396ms
+144 http fetch GET 200 https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 350ms (cache miss)
+145 timing reifyNode:node_modules/@railway/cli/node_modules/fetch-blob Completed in 403ms
+146 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 356ms (cache miss)
+147 timing reifyNode:node_modules/@railway/cli/node_modules/formdata-polyfill Completed in 406ms
+148 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 378ms (cache miss)
+149 timing reifyNode:node_modules/@railway/cli/node_modules/mkdirp Completed in 407ms
+150 http fetch GET 200 https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz 383ms (cache miss)
+151 timing reifyNode:node_modules/@railway/cli/node_modules/minizlib/node_modules/minipass Completed in 415ms
+152 http fetch GET 200 https://registry.npmjs.org/minipass/-/minipass-3.3.6.tgz 382ms (cache miss)
+153 timing reifyNode:node_modules/@railway/cli/node_modules/fs-minipass/node_modules/minipass Completed in 418ms
+154 http fetch GET 200 https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 394ms (cache miss)
+155 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+156 timing reifyNode:node_modules/@railway/cli/node_modules/node-domexception Completed in 444ms
+157 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 396ms (cache miss)
+158 timing reifyNode:node_modules/@railway/cli/node_modules/node-fetch Completed in 455ms
+159 http fetch GET 200 https://registry.npmjs.org/tar/-/tar-6.2.1.tgz 407ms (cache miss)
+160 timing reifyNode:node_modules/@railway/cli/node_modules/tar Completed in 464ms
+161 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 656ms (cache miss)
+162 timing reifyNode:node_modules/@railway/cli/node_modules/web-streams-polyfill Completed in 695ms
+163 timing reify:unpack Completed in 696ms
+164 timing reify:unretire Completed in 1ms
+165 timing build:queue Completed in 7ms
+166 timing build:link:node_modules/@railway/cli/node_modules/mkdirp Completed in 6ms
+167 timing build:link:node_modules/@railway/cli Completed in 6ms
+168 timing build:link Completed in 6ms
+169 info run @railway/cli@4.11.0 postinstall node_modules/@railway/cli node ./npm-install/postinstall.js
+170 info run @railway/cli@4.11.0 postinstall { code: 0, signal: null }
+171 timing build:run:postinstall:node_modules/@railway/cli Completed in 547ms
+172 timing build:run:postinstall Completed in 547ms
+173 timing build:deps Completed in 561ms
+174 timing build Completed in 561ms
+175 timing reify:build Completed in 561ms
+176 timing reify:trash Completed in 0ms
+177 timing reify Completed in 2482ms
+178 silly ADD node_modules/@railway/cli
+179 silly ADD node_modules/@railway/cli/node_modules/yallist
+180 silly ADD node_modules/@railway/cli/node_modules/mkdirp
+181 silly ADD node_modules/@railway/cli/node_modules/minizlib
+182 silly ADD node_modules/@railway/cli/node_modules/minizlib/node_modules/minipass
+183 silly ADD node_modules/@railway/cli/node_modules/minipass
+184 silly ADD node_modules/@railway/cli/node_modules/fs-minipass
+185 silly ADD node_modules/@railway/cli/node_modules/fs-minipass/node_modules/minipass
+186 silly ADD node_modules/@railway/cli/node_modules/chownr
+187 silly ADD node_modules/@railway/cli/node_modules/web-streams-polyfill
+188 silly ADD node_modules/@railway/cli/node_modules/node-domexception
+189 silly ADD node_modules/@railway/cli/node_modules/formdata-polyfill
+190 silly ADD node_modules/@railway/cli/node_modules/fetch-blob
+191 silly ADD node_modules/@railway/cli/node_modules/data-uri-to-buffer
+192 silly ADD node_modules/@railway/cli/node_modules/tar
+193 silly ADD node_modules/@railway/cli/node_modules/node-fetch
+194 silly ADD node_modules/@railway/cli/node_modules/@napi-rs/triples
+195 timing command:i Completed in 2492ms
+196 verbose exit 0
+197 timing npm Completed in 2777ms
+198 info ok
